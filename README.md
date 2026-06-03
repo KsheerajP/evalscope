@@ -8,6 +8,45 @@
   <a href="README_zh.md">中文</a> &nbsp ｜ &nbsp English &nbsp
 </p>
 
+---
+
+## Cerebras Challenge Fork — Task 2: Benchmark Compression
+
+> **evalscope commit this fork is based on:** `c14dbaf94e9129f7054ad4a184c2ff0cae2e6a5d`
+
+This fork adds a universal benchmark pruning library and three pruned dataset adapters to evalscope. See [`CEREBRAS_TASK2.md`](CEREBRAS_TASK2.md) for full documentation, run instructions, and handouts.
+
+### Quick start
+
+```bash
+pip install -e .
+
+# Run pruned LCB eval (31 samples instead of 315)
+evalscope eval --model <model> --datasets live_code_bench_pruned \
+    --dataset-args '{"prune_ratio": 0.1}' --output ./results_pruned/
+
+# Run MMMU image-encoder probe (full ~12K HF dataset)
+evalscope eval --model <model> --datasets mmmu_pruned \
+    --dataset-args '{"pruning_strategy": "encoder_probe", "prune_ratio": 0.025}' \
+    --output ./results_pruned/
+
+# Compare full vs pruned results
+python -m evalscope_ext.tools.compare_runs \
+    --full ./results_full/ --pruned ./results_pruned/
+```
+
+**New files added to this fork:**
+- `evalscope/pruning/` — universal DSS pruning library
+- `evalscope/benchmarks/live_code_bench_pruned/` — LCB pruned adapter
+- `evalscope/benchmarks/aa_lcr_pruned/` — AA-LCR pruned adapter
+- `evalscope/benchmarks/mmmu_pruned/` — MMMU pruned adapter (DSS + encoder probe)
+- `evalscope_ext/tools/compare_runs.py` — fidelity comparison tool
+- `scripts/precompute_reference_scores.py` — one-time reference data setup
+- [`HANDOUT_A.md`](HANDOUT_A.md) — technical explanation
+- [`HANDOUT_B.md`](HANDOUT_B.md) — non-technical explanation
+
+---
+
 <p align="center">
 <img src="https://img.shields.io/badge/python-%E2%89%A53.10-5be.svg">
 <a href="https://badge.fury.io/py/evalscope"><img src="https://badge.fury.io/py/evalscope.svg" alt="PyPI version" height="18"></a>

@@ -1,0 +1,502 @@
+{
+  "0": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 94494
+  },
+  "1": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 94485
+  },
+  "2": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 94476
+  },
+  "3": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 113263
+  },
+  "4": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 113266
+  },
+  "5": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 71709
+  },
+  "6": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 71719
+  },
+  "7": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 71757
+  },
+  "8": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 71691
+  },
+  "9": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 73588
+  },
+  "10": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 73598
+  },
+  "11": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 73597
+  },
+  "12": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 73572
+  },
+  "13": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 74026
+  },
+  "14": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 78868
+  },
+  "15": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 78978
+  },
+  "16": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 78887
+  },
+  "17": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 75667
+  },
+  "18": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 96079
+  },
+  "19": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 96080
+  },
+  "20": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 96038
+  },
+  "21": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 95299
+  },
+  "22": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 95247
+  },
+  "23": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 95299
+  },
+  "24": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 95229
+  },
+  "25": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 95277
+  },
+  "26": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 93737
+  },
+  "27": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 93758
+  },
+  "28": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 93760
+  },
+  "29": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 93815
+  },
+  "30": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 74160
+  },
+  "31": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 74158
+  },
+  "32": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 97540
+  },
+  "33": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 97541
+  },
+  "34": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 97554
+  },
+  "35": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 80428
+  },
+  "36": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 80406
+  },
+  "37": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 80423
+  },
+  "38": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 80413
+  },
+  "39": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 80422
+  },
+  "40": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 93610
+  },
+  "41": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 93636
+  },
+  "42": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 84446
+  },
+  "43": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 84436
+  },
+  "44": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 84432
+  },
+  "45": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 84496
+  },
+  "46": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 84440
+  },
+  "47": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 84475
+  },
+  "48": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 84442
+  },
+  "49": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 84440
+  },
+  "50": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 84436
+  },
+  "51": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 84439
+  },
+  "52": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 84436
+  },
+  "53": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 84451
+  },
+  "54": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 103414
+  },
+  "55": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 103409
+  },
+  "56": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 103409
+  },
+  "57": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 103420
+  },
+  "58": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 103436
+  },
+  "59": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 107452
+  },
+  "60": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 107447
+  },
+  "61": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 107441
+  },
+  "62": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 103416
+  },
+  "63": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 103401
+  },
+  "64": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 89459
+  },
+  "65": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 89438
+  },
+  "66": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 89448
+  },
+  "67": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 89435
+  },
+  "68": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 114563
+  },
+  "69": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 114554
+  },
+  "70": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 114556
+  },
+  "71": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 114559
+  },
+  "72": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 100518
+  },
+  "73": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 100490
+  },
+  "74": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 112016
+  },
+  "75": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 111994
+  },
+  "76": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 112020
+  },
+  "77": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 112046
+  },
+  "78": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 112009
+  },
+  "79": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 109057
+  },
+  "80": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 109091
+  },
+  "81": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 106804
+  },
+  "82": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 106796
+  },
+  "83": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 106800
+  },
+  "84": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 106822
+  },
+  "85": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 106087
+  },
+  "86": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 106090
+  },
+  "87": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 106087
+  },
+  "88": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 106099
+  },
+  "89": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 88622
+  },
+  "90": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 110894
+  },
+  "91": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 110914
+  },
+  "92": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 96559
+  },
+  "93": {
+    "difficulty": 0.0,
+    "discrimination": 0.0,
+    "input_tokens": 110550
+  },
+  "94": {
+    "difficulty": 0.3333,
+    "discrimination": 1.0,
+    "input_tokens": 110550
+  },
+  "95": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 110546
+  },
+  "96": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 110548
+  },
+  "97": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 113491
+  },
+  "98": {
+    "difficulty": 1.0,
+    "discrimination": 0.0,
+    "input_tokens": 113500
+  },
+  "99": {
+    "difficulty": 0.6667,
+    "discrimination": 1.0,
+    "input_tokens": 94652
+  }
+}

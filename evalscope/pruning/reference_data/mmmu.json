@@ -1,0 +1,4006 @@
+{
+  "Accounting": {
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Accounting"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Accounting"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "4": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Accounting"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Accounting"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Accounting"
+    }
+  },
+  "Agriculture": {
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "7": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Agriculture"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "Agriculture"
+    }
+  },
+  "Architecture_and_Engineering": {
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Architecture_and_Engineering"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Architecture_and_Engineering"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Architecture_and_Engineering"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Architecture_and_Engineering"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "15": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Architecture_and_Engineering"
+    },
+    "28": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Architecture_and_Engineering"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Architecture_and_Engineering"
+    }
+  },
+  "Art": {
+    "7": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Art"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Art"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Art"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Art"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Art"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "18": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "15": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Art"
+    }
+  },
+  "Art_Theory": {
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "15": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Art_Theory"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Art_Theory"
+    }
+  },
+  "Basic_Medical_Science": {
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "22": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "9": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "27": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Basic_Medical_Science"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Basic_Medical_Science"
+    }
+  },
+  "Biology": {
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "28": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "9": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "7": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "22": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Biology"
+    },
+    "8": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Biology"
+    }
+  },
+  "Chemistry": {
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "4": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "6": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "8": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "22": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Chemistry"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Chemistry"
+    }
+  },
+  "Clinical_Medicine": {
+    "17": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "15": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "23": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "4": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Clinical_Medicine"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.6,
+      "subject": "Clinical_Medicine"
+    }
+  },
+  "Computer_Science": {
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "23": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    },
+    "8": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "25": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.75,
+      "subject": "Computer_Science"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.95,
+      "subject": "Computer_Science"
+    }
+  },
+  "Design": {
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Design"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Design"
+    }
+  },
+  "Diagnostics_and_Laboratory_Medicine": {
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "18": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "25": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "6": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "7": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.85,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "15": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.65,
+      "subject": "Diagnostics_and_Laboratory_Medicine"
+    }
+  },
+  "Economics": {
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "27": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "22": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "25": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Economics"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Economics"
+    }
+  },
+  "Electronics": {
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "25": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "26": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "11": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "4": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "23": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "8": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "28": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "15": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Electronics"
+    }
+  },
+  "Energy_and_Power": {
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Energy_and_Power"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Energy_and_Power"
+    }
+  },
+  "Finance": {
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "22": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "9": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "23": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "14": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "4": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "7": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.4,
+      "subject": "Finance"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.2,
+      "subject": "Finance"
+    }
+  },
+  "Geography": {
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "12": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "13": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "26": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "8": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    },
+    "6": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.8,
+      "subject": "Geography"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 1.0,
+      "subject": "Geography"
+    }
+  },
+  "History": {
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "28": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "9": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "4": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.3,
+      "subject": "History"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.5,
+      "subject": "History"
+    }
+  },
+  "Literature": {
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "27": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.45,
+      "subject": "Literature"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.25,
+      "subject": "Literature"
+    }
+  },
+  "Manage": {
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "26": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "19": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "10": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "16": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "24": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "22": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "18": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "6": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Manage"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    },
+    "20": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Manage"
+    }
+  },
+  "Marketing": {
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "3": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "26": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "2": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "5": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "7": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "17": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "27": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "21": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "18": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "0": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    },
+    "29": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.55,
+      "subject": "Marketing"
+    },
+    "1": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.35,
+      "subject": "Marketing"
+    }
+  },
+  "Materials": {
+    "5": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "2": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "20": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "19": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "12": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "6": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "15": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "27": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "16": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "3": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "25": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "21": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "10": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "22": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "24": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "7": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "11": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "0": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "8": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "9": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "29": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "4": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "18": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "17": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "26": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "23": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    },
+    "13": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "28": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "1": {
+      "difficulty": 1.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.7,
+      "subject": "Materials"
+    },
+    "14": {
+      "difficulty": 0.0,
+      "discrimination": 0.0,
+      "image_necessity": 0.9,
+      "subject": "Materials"
+    }
+  }
+}
