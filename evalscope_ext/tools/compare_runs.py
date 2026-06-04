@@ -21,20 +21,26 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+# Metric keys searched in order when extracting a score from a result file
+_METRIC_KEYS = ('acc', 'pass@1', 'score', 'accuracy', 'mean')
 
-def _find_report_files(run_dir: Path) -> list[Path]:
-    """Recursively find all JSON report files in a results directory."""
-    reports = []
-    for root, _, files in os.walk(run_dir):
-        for f in files:
-            if f.endswith('.json') and 'report' in f.lower():
-                reports.append(Path(root) / f)
-    # Also check for summary.json or results.json patterns
-    for root, _, files in os.walk(run_dir):
-        for f in files:
-            if f in ('summary.json', 'results.json', 'report.json'):
-                reports.append(Path(root) / f)
-    return list(set(reports))
+_REPORT_NAMES = frozenset(('summary.json', 'results.json', 'report.json'))
+
+
+def _normalize_benchmark(name: str) -> str:
+    """Strip _pruned suffix so full and pruned benchmark names match."""
+    return name.replace('_pruned', '').lower()
+
+
+def _extract_score(data: dict) -> Optional[float]:
+    """Search common metric locations in a result dict and return the first match."""
+    for location in (data, data.get('metrics', {}), data.get('results', {})):
+        if not isinstance(location, dict):
+            continue
+        for key in _METRIC_KEYS:
+            if key in location:
+                return float(location[key])
+    return None
 
 
 def _extract_scores(run_dir: Path) -> dict[str, dict[str, float]]:
@@ -50,11 +56,13 @@ def _extract_scores(run_dir: Path) -> dict[str, dict[str, float]]:
     """
     results: dict[str, dict[str, float]] = {}
 
-    # Walk directory looking for report files
-    for root, dirs, files in os.walk(run_dir):
+    for root, _, files in os.walk(run_dir):
         root_path = Path(root)
         for fname in files:
             if not fname.endswith('.json'):
+                continue
+            # Only process known report filenames or files with 'report' in name
+            if fname not in _REPORT_NAMES and 'report' not in fname.lower():
                 continue
             fpath = root_path / fname
             try:
@@ -63,45 +71,22 @@ def _extract_scores(run_dir: Path) -> dict[str, dict[str, float]]:
             except (json.JSONDecodeError, OSError):
                 continue
 
-            # Pattern 1: evalscope report with 'model' and 'metrics' keys
-            if isinstance(data, dict):
-                model = data.get('model') or data.get('model_id') or _infer_model_from_path(fpath, run_dir)
-                benchmark = data.get('benchmark') or data.get('dataset') or _infer_benchmark_from_path(fpath, run_dir)
+            if not isinstance(data, dict):
+                continue
 
-                score = None
-                # Try common metric locations
-                for key in ('acc', 'pass@1', 'score', 'accuracy', 'mean'):
-                    if key in data:
-                        score = float(data[key])
-                        break
-                if score is None and 'metrics' in data:
-                    metrics = data['metrics']
-                    if isinstance(metrics, dict):
-                        for key in ('acc', 'pass@1', 'score', 'accuracy', 'mean'):
-                            if key in metrics:
-                                score = float(metrics[key])
-                                break
-                if score is None and 'results' in data:
-                    res = data['results']
-                    if isinstance(res, dict):
-                        for key in ('acc', 'pass@1', 'score', 'accuracy', 'mean'):
-                            if key in res:
-                                score = float(res[key])
-                                break
+            model = data.get('model') or data.get('model_id') or _infer_model_from_path(fpath, run_dir)
+            benchmark = data.get('benchmark') or data.get('dataset') or _infer_benchmark_from_path(fpath, run_dir)
+            score = _extract_score(data)
 
-                if model and benchmark and score is not None:
-                    if model not in results:
-                        results[model] = {}
-                    results[model][benchmark] = score
+            if model and benchmark and score is not None:
+                results.setdefault(model, {})[benchmark] = score
 
     return results
 
 
 def _infer_model_from_path(fpath: Path, base: Path) -> str:
-    """Infer model name from directory structure."""
     try:
-        rel = fpath.relative_to(base)
-        parts = rel.parts
+        parts = fpath.relative_to(base).parts
         if len(parts) >= 2:
             return parts[0]
     except ValueError:
@@ -110,10 +95,8 @@ def _infer_model_from_path(fpath: Path, base: Path) -> str:
 
 
 def _infer_benchmark_from_path(fpath: Path, base: Path) -> str:
-    """Infer benchmark name from directory structure."""
     try:
-        rel = fpath.relative_to(base)
-        parts = rel.parts
+        parts = fpath.relative_to(base).parts
         if len(parts) >= 2:
             return parts[1]
         if len(parts) == 1:
@@ -124,22 +107,20 @@ def _infer_benchmark_from_path(fpath: Path, base: Path) -> str:
 
 
 def spearman_correlation(x: list[float], y: list[float]) -> Optional[float]:
-    """Compute Spearman rank correlation (no scipy required)."""
+    """Compute Spearman rank correlation without scipy."""
     if len(x) != len(y) or len(x) < 2:
         return None
 
-    def rank(arr):
+    def rank(arr: list[float]) -> list[float]:
         sorted_idx = sorted(range(len(arr)), key=lambda i: arr[i])
         ranks = [0.0] * len(arr)
-        for rank_val, idx in enumerate(sorted_idx):
-            ranks[idx] = rank_val + 1.0
+        for r, idx in enumerate(sorted_idx):
+            ranks[idx] = r + 1.0
         return ranks
 
     rx, ry = rank(x), rank(y)
     n = len(rx)
-    mean_rx = sum(rx) / n
-    mean_ry = sum(ry) / n
-
+    mean_rx, mean_ry = sum(rx) / n, sum(ry) / n
     num = sum((rx[i] - mean_rx) * (ry[i] - mean_ry) for i in range(n))
     den = (sum((r - mean_rx) ** 2 for r in rx) * sum((r - mean_ry) ** 2 for r in ry)) ** 0.5
     return num / den if den > 0 else 0.0
@@ -153,7 +134,7 @@ def compare(full_dir: Path, pruned_dir: Path, threshold: float = 0.5) -> int:
     """
     Compare full vs pruned runs and print a fidelity report.
 
-    Returns exit code: 0 if all models pass fidelity check, 1 otherwise.
+    Returns 0 if all go/no-go decisions are consistent, 1 otherwise.
     """
     print(f'\n{"="*64}')
     print('  Pruning Fidelity Report')
@@ -166,63 +147,49 @@ def compare(full_dir: Path, pruned_dir: Path, threshold: float = 0.5) -> int:
 
     if not full_scores:
         print(f'ERROR: No results found in {full_dir}')
-        print('  Expected directory structure: {run_dir}/{model}/{benchmark}/report.json')
+        print('  Expected: {run_dir}/{model}/{benchmark}/report.json')
         return 1
     if not pruned_scores:
         print(f'ERROR: No results found in {pruned_dir}')
         return 1
 
-    # Find models present in both runs
-    full_models = set(full_scores.keys())
-    pruned_models = set(pruned_scores.keys())
-    common_models = full_models & pruned_models
-
+    common_models = set(full_scores) & set(pruned_scores)
     if not common_models:
-        print(f'WARNING: No common models between full ({sorted(full_models)}) '
-              f'and pruned ({sorted(pruned_models)}) runs.')
+        print(f'WARNING: No common models between full {sorted(full_scores)} '
+              f'and pruned {sorted(pruned_scores)}.')
         print('  Check that --model is the same in both eval commands.')
         return 1
 
     print(f'Models compared: {sorted(common_models)}\n')
-
-    # Per-model comparison
-    full_list, pruned_list = [], []
-    all_pass = True
-
     print(f'{"Model":<30} {"Full":>8} {"Pruned":>8} {"Delta":>8} {"Status":>10}')
     print('-' * 68)
+
+    full_list, pruned_list = [], []
+    all_pass = True
 
     for model in sorted(common_models):
         f_benchmarks = full_scores[model]
         p_benchmarks = pruned_scores[model]
 
-        # Match benchmarks by normalized name (strip _pruned suffix for comparison)
-        def _normalize(b: str) -> str:
-            return b.replace('_pruned', '').lower()
-
-        pairs: list[tuple[str, str, str]] = []  # (full_bench, pruned_bench, display_name)
-        for fb in f_benchmarks:
-            for pb in p_benchmarks:
-                if _normalize(fb) == _normalize(pb) or fb == pb:
-                    pairs.append((fb, pb, _normalize(fb)))
-        if not pairs:
-            # Fallback: pair by order if only one benchmark each
-            if len(f_benchmarks) == 1 and len(p_benchmarks) == 1:
-                fb = list(f_benchmarks)[0]
-                pb = list(p_benchmarks)[0]
-                pairs = [(fb, pb, _normalize(fb))]
+        # Pair benchmarks by normalized name (strips _pruned suffix)
+        pairs: list[tuple[str, str, str]] = [
+            (fb, pb, _normalize_benchmark(fb))
+            for fb in f_benchmarks
+            for pb in p_benchmarks
+            if _normalize_benchmark(fb) == _normalize_benchmark(pb) or fb == pb
+        ]
+        # Fallback: if single benchmark each, pair them regardless of name
+        if not pairs and len(f_benchmarks) == 1 and len(p_benchmarks) == 1:
+            fb, pb = list(f_benchmarks)[0], list(p_benchmarks)[0]
+            pairs = [(fb, pb, _normalize_benchmark(fb))]
 
         for fb, pb, display in pairs:
-            fs = f_benchmarks[fb]
-            ps = p_benchmarks[pb]
+            fs, ps = f_benchmarks[fb], p_benchmarks[pb]
             delta = abs(ps - fs)
             full_list.append(fs)
             pruned_list.append(ps)
 
-            # Go/no-go consistency: using threshold
-            full_pass = fs >= threshold
-            pruned_pass = ps >= threshold
-            consistent = full_pass == pruned_pass
+            consistent = (fs >= threshold) == (ps >= threshold)
             status = '✓ consistent' if consistent else '✗ MISMATCH'
             if not consistent:
                 all_pass = False
@@ -232,7 +199,6 @@ def compare(full_dir: Path, pruned_dir: Path, threshold: float = 0.5) -> int:
 
     print()
 
-    # Aggregate stats
     if len(full_list) > 1:
         mean_delta = sum(abs(f - p) for f, p in zip(full_list, pruned_list)) / len(full_list)
         rho = spearman_correlation(full_list, pruned_list)
@@ -240,46 +206,40 @@ def compare(full_dir: Path, pruned_dir: Path, threshold: float = 0.5) -> int:
         if rho is not None:
             print(f'Spearman rank correlation: {rho:.4f}')
     elif len(full_list) == 1:
-        delta = abs(full_list[0] - pruned_list[0])
-        print(f'Score delta: {delta:.4f}')
+        print(f'Score delta: {abs(full_list[0] - pruned_list[0]):.4f}')
 
-    # Compression info
     n_full = _count_samples(full_dir)
     n_pruned = _count_samples(pruned_dir)
     if n_full and n_pruned:
-        compression = 1 - n_pruned / n_full
-        print(f'Compression ratio:         {compression:.1%} reduction ({n_pruned}/{n_full} samples)')
+        print(f'Compression ratio:         {1 - n_pruned / n_full:.1%} reduction ({n_pruned}/{n_full} samples)')
 
     print()
     if all_pass:
         print('✓ Go/no-go decisions are CONSISTENT across all models.')
     else:
         print('✗ Go/no-go MISMATCH detected. Consider increasing prune_ratio.')
-
     print(f'{"="*64}\n')
     return 0 if all_pass else 1
 
 
 def _count_samples(run_dir: Path) -> Optional[int]:
-    """Try to count evaluated samples from result files."""
+    """Estimate evaluated sample count from result files."""
     for root, _, files in os.walk(run_dir):
         for f in files:
-            if f.endswith('.jsonl') or f.endswith('.json'):
-                fpath = Path(root) / f
-                try:
-                    with open(fpath) as fp:
-                        content = fp.read()
-                    if content.strip().startswith('['):
-                        data = json.loads(content)
-                        if isinstance(data, list):
-                            return len(data)
-                    else:
-                        # JSONL
-                        lines = [l for l in content.splitlines() if l.strip()]
-                        if lines:
-                            return len(lines)
-                except Exception:
-                    pass
+            if not (f.endswith('.jsonl') or f.endswith('.json')):
+                continue
+            try:
+                content = (Path(root) / f).read_text()
+                if content.strip().startswith('['):
+                    data = json.loads(content)
+                    if isinstance(data, list):
+                        return len(data)
+                else:
+                    lines = [l for l in content.splitlines() if l.strip()]
+                    if lines:
+                        return len(lines)
+            except Exception:
+                pass
     return None
 
 
@@ -287,16 +247,12 @@ def main():
     parser = argparse.ArgumentParser(
         description='Compare full vs pruned evalscope runs to measure fidelity.'
     )
-    parser.add_argument('--full', required=True, help='Path to full benchmark results directory')
+    parser.add_argument('--full',   required=True, help='Path to full benchmark results directory')
     parser.add_argument('--pruned', required=True, help='Path to pruned benchmark results directory')
-    parser.add_argument(
-        '--threshold', type=float, default=0.5,
-        help='Go/no-go pass threshold (default: 0.5). Score >= threshold = PASS.'
-    )
+    parser.add_argument('--threshold', type=float, default=0.5,
+                        help='Go/no-go pass threshold (default: 0.5)')
     args = parser.parse_args()
-
-    exit_code = compare(Path(args.full), Path(args.pruned), threshold=args.threshold)
-    sys.exit(exit_code)
+    sys.exit(compare(Path(args.full), Path(args.pruned), threshold=args.threshold))
 
 
 if __name__ == '__main__':
