@@ -10,18 +10,18 @@
 
 This fork of [modelscope/evalscope](https://github.com/modelscope/evalscope) adds three pruned benchmark adapters and a universal pruning library implementing **Discriminative Stratified Sampling (DSS)**.
 
-| Benchmark | Full size | At 10% | Discrimination gain |
-|-----------|-----------|--------|---------------------|
-| LiveCodeBench v5 | 315 samples | 31 samples | 2.84× |
-| AA-LCR | 100 samples | 10 samples | — |
-| MMMU (encoder probe) | ~12K samples | ~300 samples | image-necessity filtered |
+| Benchmark | Full size | At 10% | Signal quality |
+|-----------|-----------|--------|----------------|
+| LiveCodeBench v5 | 315 samples | 31 samples | 2.84× more discriminative |
+| AA-LCR | 100 samples | 30 samples | judge-noise corrected |
+| MMMU (encoder probe) | ~12K samples | ~300 samples | image-encoder targeted |
 
 ---
 
 ## Install
 
 ```bash
-git clone https://github.com/[your-repo]/evalscope
+git clone https://github.com/KsheerajP/evalscope
 cd evalscope
 pip install -e .
 ```
@@ -37,9 +37,9 @@ python scripts/precompute_reference_scores.py \
     --evals-dir /path/to/challenge/Evals
 ```
 
-This reads the challenge JSONL data and writes pre-computed difficulty/discrimination scores to `evalscope/pruning/reference_data/`.
+Reads the challenge JSONL data and writes difficulty/discrimination scores to `evalscope/pruning/reference_data/`.
 
-> **Note:** Reference data for the 3 shipped models is already bundled in the repo. You only need to re-run this if you add new reference models.
+> **Note:** Reference data for the 3 shipped models is already bundled. Re-run only if adding new reference models.
 
 ### Step 2: Run full benchmark (baseline)
 
@@ -66,10 +66,10 @@ evalscope eval --model <model> --datasets mmmu_pruned \
     --dataset-args '{"pruning_strategy": "discriminative_stratified", "prune_ratio": 0.3}' \
     --output ./results_pruned/
 
-# MMMU — Image encoder probe on full 12K HuggingFace dataset (Part B)
+# MMMU — Image encoder probe on full ~12K HuggingFace dataset (Part B)
 evalscope eval --model <model> --datasets mmmu_pruned \
     --dataset-args '{"pruning_strategy": "encoder_probe", "prune_ratio": 0.025}' \
-    --output ./results_pruned_probe/
+    --output ./results_probe/
 ```
 
 ### Step 4: Compare full vs pruned
@@ -81,38 +81,40 @@ python -m evalscope_ext.tools.compare_runs \
     --threshold 0.5
 ```
 
+Output includes score delta, Spearman rank correlation, and go/no-go consistency verdict.
+
 ---
 
-## What's new in this fork
+## Architecture
 
 ### `evalscope/pruning/` — Universal pruning library
 
-| File | What it does |
-|------|-------------|
-| `core.py` | `DiscriminativeStratifiedPruner` (used by all 3 adapters), `EncoderProbeSelector` (MMMU Part B) |
-| `reference_data/live_code_bench_v5.json` | Pre-computed difficulty + discrimination for 315 LCB samples |
-| `reference_data/aa_lcr.json` | Pre-computed scores for 100 AA-LCR samples + input_tokens |
+| File | Purpose |
+|------|---------|
+| `core.py` | `DiscriminativeStratifiedPruner` (all 3 adapters), `EncoderProbeSelector` (MMMU Part B). Single source of truth for subject weights and visual keywords. |
+| `reference_data/live_code_bench_v5.json` | Difficulty + discrimination for 315 LCB samples (3 models) |
+| `reference_data/aa_lcr.json` | Scores + input_tokens for 100 AA-LCR samples |
 | `reference_data/mmmu.json` | Per-subject scores + image_necessity for 660 MMMU reference samples |
 
 ### `evalscope/benchmarks/` — Three new adapters
 
-All three inherit from their parent adapter (inheriting scoring, extraction, and evaluation logic) and add index-based filtering via `sample_filter()`.
+All three inherit from their parent adapter (scoring, extraction, evaluation logic unchanged) and add index-based filtering via `sample_filter()`.
 
 | Adapter | Parent | Strategy |
 |---------|--------|----------|
 | `live_code_bench_pruned` | `LiveCodeBenchAdapter` | DSS |
-| `aa_lcr_pruned` | `AALCRAdapter` | DSS + noise correction |
+| `aa_lcr_pruned` | `AALCRAdapter` | DSS + LLM-judge noise correction |
 | `mmmu_pruned` | `MMMUAdapter` | DSS or encoder_probe |
 
-The **universal** part: all three use the same `DiscriminativeStratifiedPruner.select_indices()` method and accept identical `dataset-args` parameters.
+All three use the same `DiscriminativeStratifiedPruner.select_indices()` and accept identical `dataset-args`.
 
 ### `evalscope_ext/tools/compare_runs.py`
 
-Fidelity comparison tool — validates that pruned score ≈ full score, reports Spearman rank correlation and go/no-go consistency.
+Fidelity comparison tool. Normalises benchmark names automatically (`live_code_bench_pruned` matches `live_code_bench`), reports score delta, Spearman ρ, and go/no-go verdict.
 
 ### `scripts/precompute_reference_scores.py`
 
-One-time script to compute reference data from challenge JSONL files.
+One-time setup. Imports subject weights and visual keywords directly from `EncoderProbeSelector` in `core.py` — no duplicated constants.
 
 ---
 
@@ -125,10 +127,11 @@ One-time script to compute reference data from challenge JSONL files.
 
 ## Pruning strategy rationale
 
-**Discriminative Stratified Sampling (DSS)** selects samples that:
-1. Cover the full difficulty spectrum (hard / medium / easy strata)
-2. Within each stratum, prioritize items where models historically disagree
+**Discriminative Stratified Sampling (DSS):**
+1. Partition samples into hard / medium / easy strata by difficulty
+2. Within each stratum, rank by discrimination (models disagree = high signal)
+3. Allocate budget proportionally across strata
 
-This is NOT random, NOT top-k hardest, NOT hand-picked, and does NOT overfit to the 3 reference models. High-discrimination items are structurally ambiguous — they will discriminate a 4th model for the same reason they discriminated the first three.
-
-See `HANDOUT_A.md` for full mathematical justification and what-if analysis.
+Not random, not top-k, not hand-picked, not overfitted to the 3 reference models.
+High-discrimination items are structurally ambiguous — a 4th unseen model will be
+discriminated by the same structural features. See `HANDOUT_A.md` for full analysis.

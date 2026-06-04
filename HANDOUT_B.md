@@ -15,7 +15,7 @@ With these pruners, the answer comes back **10× faster** for coding and **3× f
 
 **Step 1: Install the evalscope fork**
 ```bash
-git clone https://github.com/[your-repo]/evalscope
+git clone https://github.com/KsheerajP/evalscope
 cd evalscope
 pip install -e .
 ```

@@ -12,38 +12,44 @@
 
 ## Cerebras Challenge Fork — Task 2: Benchmark Compression
 
-> **evalscope commit this fork is based on:** `c14dbaf94e9129f7054ad4a184c2ff0cae2e6a5d`
+> **evalscope base commit:** `c14dbaf94e9129f7054ad4a184c2ff0cae2e6a5d`
+> **Full documentation:** [`CEREBRAS_TASK2.md`](CEREBRAS_TASK2.md)
 
-This fork adds a universal benchmark pruning library and three pruned dataset adapters to evalscope. See [`CEREBRAS_TASK2.md`](CEREBRAS_TASK2.md) for full documentation, run instructions, and handouts.
+This fork adds a universal benchmark pruning library (**Discriminative Stratified Sampling**) and three pruned dataset adapters. All adapters share the same `DiscriminativeStratifiedPruner` from `evalscope/pruning/core.py`.
 
 ### Quick start
 
 ```bash
+git clone https://github.com/KsheerajP/evalscope && cd evalscope
 pip install -e .
 
-# Run pruned LCB eval (31 samples instead of 315)
+# Pruned LCB eval (31 samples instead of 315, 2.84× more discriminative)
 evalscope eval --model <model> --datasets live_code_bench_pruned \
     --dataset-args '{"prune_ratio": 0.1}' --output ./results_pruned/
 
-# Run MMMU image-encoder probe (full ~12K HF dataset)
+# MMMU image-encoder probe (scans full ~12K HuggingFace dataset)
 evalscope eval --model <model> --datasets mmmu_pruned \
     --dataset-args '{"pruning_strategy": "encoder_probe", "prune_ratio": 0.025}' \
-    --output ./results_pruned/
+    --output ./results_probe/
 
-# Compare full vs pruned results
+# Fidelity check: does pruned score match full score?
 python -m evalscope_ext.tools.compare_runs \
     --full ./results_full/ --pruned ./results_pruned/
 ```
 
-**New files added to this fork:**
-- `evalscope/pruning/` — universal DSS pruning library
-- `evalscope/benchmarks/live_code_bench_pruned/` — LCB pruned adapter
-- `evalscope/benchmarks/aa_lcr_pruned/` — AA-LCR pruned adapter
-- `evalscope/benchmarks/mmmu_pruned/` — MMMU pruned adapter (DSS + encoder probe)
-- `evalscope_ext/tools/compare_runs.py` — fidelity comparison tool
-- `scripts/precompute_reference_scores.py` — one-time reference data setup
-- [`HANDOUT_A.md`](HANDOUT_A.md) — technical explanation
-- [`HANDOUT_B.md`](HANDOUT_B.md) — non-technical explanation
+### Files added to this fork
+
+| Path | Purpose |
+|------|---------|
+| `evalscope/pruning/core.py` | `DiscriminativeStratifiedPruner` + `EncoderProbeSelector` (single source of truth for all weights/keywords) |
+| `evalscope/pruning/reference_data/` | Pre-computed scores for LCB, AA-LCR, MMMU |
+| `evalscope/benchmarks/live_code_bench_pruned/` | LCB pruned adapter |
+| `evalscope/benchmarks/aa_lcr_pruned/` | AA-LCR adapter (DSS + judge-noise correction) |
+| `evalscope/benchmarks/mmmu_pruned/` | MMMU adapter (DSS or image-encoder probe) |
+| `evalscope_ext/tools/compare_runs.py` | Fidelity comparison tool |
+| `scripts/precompute_reference_scores.py` | One-time reference data setup |
+| [`HANDOUT_A.md`](HANDOUT_A.md) | Technical explanation (engineer audience) |
+| [`HANDOUT_B.md`](HANDOUT_B.md) | Non-technical explanation (PM/customer audience) |
 
 ---
 
